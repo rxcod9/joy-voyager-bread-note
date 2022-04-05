@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'notes',
                 'display_name_singular' => __('joy-voyager-bread-note::seeders.data_types.note.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-note::seeders.data_types.note.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-note voyager-book',
                 'model_name'            => 'Joy\\VoyagerBreadNote\\Models\\Note',
                 // 'policy_name'           => 'Joy\\VoyagerBreadNote\\Policies\\NotePolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadNote\\Http\\Controllers\\VoyagerBreadNoteController',
