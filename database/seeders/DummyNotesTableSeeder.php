@@ -14,7 +14,7 @@ class DummyNotesTableSeeder extends Seeder
      */
     public function run()
     {
-        $count = 100;
+        $count = 20;
         Note::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
